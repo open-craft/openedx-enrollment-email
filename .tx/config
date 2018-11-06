@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[edx-platform.openedx-enrollment-email]
+file_filter = enrollment_email/conf/locale/<lang>/LC_MESSAGES/django.po
+source_file = enrollment_email/conf/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[edx-platform.openedx-enrollment-email-js]
+file_filter = enrollment_email/conf/locale/<lang>/LC_MESSAGES/djangojs.po
+source_file = enrollment_email/conf/locale/en/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
