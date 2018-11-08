@@ -8,9 +8,12 @@ from __future__ import absolute_import, unicode_literals
 from django.apps import AppConfig
 
 
-class EnrollmentEmailConfig(AppConfig):
+class EnrollmentEmailAppConfig(AppConfig):
     """
     Configuration for the enrollment_email Django application.
     """
 
     name = 'enrollment_email'
+
+    def ready(self):
+        from . import signals

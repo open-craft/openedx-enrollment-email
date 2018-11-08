@@ -80,6 +80,11 @@ setup(
     packages=[
         'enrollment_email',
     ],
+    entry_points={
+        'lms.djangoapp': [
+            'enrollment_email = enrollment_email.apps:EnrollmentEmailAppConfig'
+        ],
+    },
     include_package_data=True,
     install_requires=load_requirements('requirements/base.in'),
     license="AGPL 3.0",
