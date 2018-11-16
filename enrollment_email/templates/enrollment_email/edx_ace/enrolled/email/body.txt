@@ -1,0 +1,7 @@
+{% load i18n %}{% autoescape off %}
+{% if user_full_name %}
+{% blocktrans %}Student {{ username }} ({{ user_full_name }}) enrolled into course {{ course_id }}{% endblocktrans %}
+{% else %}
+{% blocktrans %}Student {{ username }} enrolled into course {{ course_id }}{% endblocktrans %}
+{% endif %}
+{% endautoescape %}
