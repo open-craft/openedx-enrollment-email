@@ -14,6 +14,7 @@ class EnrollmentEmailAppConfig(AppConfig):
     """
 
     name = 'enrollment_email'
+    plugin_app = {}
 
     def ready(self):
         from . import signals
