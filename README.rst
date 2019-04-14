@@ -12,7 +12,9 @@ codebase.
 Send an e-mail to staff every time a student enrolls into a course
 
 **April 2019**: this code is **DEPRECATED** since the client project is over. It's also not finished.
-The next step, if we ever continue this plug-in, will be to agree on the public APIs required to reimplement this as a maintainable plug-in: [see discussion here](https://github.com/edx/edx-platform/pull/16669#issuecomment-439774482).
+The next step, if we ever continue this plug-in, will be to agree on the public APIs required to reimplement this as a maintainable plug-in: `discussion`_ here.
+
+.. _discussion: https://github.com/edx/edx-platform/pull/16669#issuecomment-439774482
 
 Overview (please modify)
 ------------------------
